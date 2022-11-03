@@ -1,0 +1,26 @@
+{
+    "type": "composite",
+    "figures": [{ "type": "point", "x": 10, "y": 10 },
+        { "type": "circle", "x": 10, "y": 10, "r": 10 },
+        { "type": "line", "x1": 10, "y1": 10, "x2": 20, "y2": 20 },
+        {
+            "type": "rectangle",
+            "x1": 10,
+            "y1": 10,
+            "x2": 10,
+            "y2": 20,
+            "x3": 20,
+            "y3": 20,
+            "x4": 20,
+            "y4": 10
+        },
+        {
+            "type": "composite",
+            "figures": [
+                { "type": "point", "x": 20, "y": 20 },
+                { "type": "circle", "x": 20, "y": 20, "r": 20 },
+                { "type": "line", "x1": 20, "y1": 20, "x2": 40, "y2": 40 }
+            ]
+        }
+    ]
+}
